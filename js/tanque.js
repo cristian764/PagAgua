@@ -87,7 +87,7 @@ client.connect({
     errorElem.textContent = "No se pudo conectar al broker MQTT.";
     showLoading(false);
   },
-  useSSL: true,
+  useSSL: false,
   userName: "user1",
   password: "User1"
 });

@@ -1,11 +1,11 @@
-const client = new Paho.MQTT.Client(esp32Ip, 8083, "webClient_" + Math.floor(Math.random() * 10000));
+const client = new Paho.MQTT.Client(esp32Ip, 8083, "webClient_" + parseInt(Math.random() * 100, 10));
 
 client.onConnectionLost = onConnectionLost;
 client.onMessageArrived = onMessageArrived;
 
 client.connect({
   onSuccess: onConnect,
-  useSSL: true,
+  useSSL: false,
   userName: "user1",
   password: "User1"
 });

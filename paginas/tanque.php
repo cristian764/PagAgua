@@ -15,9 +15,8 @@ $esp32Ip = $_SESSION['esp32Ip'];
 <head>
     <meta charset="UTF-8" />
     <title>Estado del Tanque</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.1.0/mqttws31.min.js"></script>
 </head>
 <body>
     
@@ -102,6 +101,7 @@ $esp32Ip = $_SESSION['esp32Ip'];
     <script src="../js/paho-mqtt.js"></script>
     <script src="../js/tanque.js"></script>
     <script src="../js/cerrarSesion.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

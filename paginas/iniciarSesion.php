@@ -10,7 +10,7 @@ if (isset($_SESSION['usuario'])) {
 <head>
     <meta charset="UTF-8">
     <title>Iniciar Sesión</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="container d-flex align-items-center min-vh-100">
@@ -37,6 +37,7 @@ if (isset($_SESSION['usuario'])) {
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/sesion.js"></script>
 </body>
 </html>

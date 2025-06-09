@@ -19,7 +19,7 @@ $nombreUsuario = $_SESSION['usuario'];
 <head>
     <meta charset="UTF-8">
     <title>Página Principal</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 
 </head>
@@ -57,5 +57,6 @@ $nombreUsuario = $_SESSION['usuario'];
     <script src="js/paho-mqtt.js"></script>
     <script src="js/cerrarSesion.js"></script>
     <script src="js/mqtt-control.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
